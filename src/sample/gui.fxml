@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="609.0" prefWidth="800.0" style="-fx-background-color: #2B2C4A;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextArea id="textar" fx:id="textar" layoutX="39.0" layoutY="250.0" prefHeight="350.0" prefWidth="570.0" promptText="click the buttons to check for the queries" style="-fx-background-color: #98D531;" />
+      <Button fx:id="signupstudent" layoutX="45.0" layoutY="142.0" mnemonicParsing="false" onAction="#signupstudent" prefHeight="36.0" prefWidth="128.0" style="-fx-background-color: #064B82;" text="signup student" textFill="#cd1313">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect></Button>
+      <TextField fx:id="in1" layoutX="629.0" layoutY="225.0" style="-fx-background-color: #2895ED;" />
+      <TextField fx:id="in2" layoutX="629.0" layoutY="266.0" style="-fx-background-color: #2895ED;" />
+      <TextField fx:id="in3" layoutX="629.0" layoutY="305.0" style="-fx-background-color: #2895ED;" />
+      <TextField fx:id="in4" layoutX="629.0" layoutY="344.0" style="-fx-background-color: #2895ED;" />
+      <Button fx:id="run" layoutX="673.0" layoutY="421.0" mnemonicParsing="false" onAction="#runAction" prefHeight="25.0" prefWidth="60.0" style="-fx-background-color: #194264;" text="run" textFill="#dd1c12">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></Button>
+      <Button fx:id="connect" layoutX="654.0" layoutY="131.0" mnemonicParsing="false" onAction="#connectAction" prefHeight="36.0" prefWidth="99.0" style="-fx-background-color: #24EE3C;" text="connect" textFill="#000000f2" wrapText="true">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font></Button>
+      <Button fx:id="signuptutor" layoutX="494.0" layoutY="134.0" mnemonicParsing="false" onAction="#signuptutor" prefHeight="36.0" prefWidth="115.0" style="-fx-background-color: #064B82;" text="signup tutor" textFill="#da180e">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect></Button>
+      <Button fx:id="videolist" layoutX="45.0" layoutY="196.0" mnemonicParsing="false" onAction="#videolistAction" prefHeight="36.0" prefWidth="83.0" style="-fx-background-color: #064B82;" text="videolist" textFill="#dd1616">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect></Button>
+      <Button fx:id="addvideos" layoutX="494.0" layoutY="196.0" mnemonicParsing="false" onAction="#addvideoAction" prefHeight="36.0" prefWidth="115.0" style="-fx-background-color: #064B82;" text="add videos" textFill="#e51010" wrapText="true">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Button>
+      <TextField fx:id="in5" layoutX="629.0" layoutY="380.0" style="-fx-background-color: #2895ED;" />
+      <ImageView fitHeight="73.0" fitWidth="200.0" layoutX="234.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Magoosh.jpg" />
+         </image>
+      </ImageView>
+   </children>
+   <effect>
+      <DropShadow />
+   </effect>
+</Pane>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="599.0" prefWidth="823.0" style="-fx-background-color: #c0c0c0;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextArea id="textar" fx:id="textar" layoutX="24.0" layoutY="291.0" prefHeight="304.0" prefWidth="585.0" promptText="click the buttons to check for the queries" style="-fx-background-color: #98D531;">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></TextArea>
+      <Button fx:id="signupstudent" layoutX="163.0" layoutY="156.0" mnemonicParsing="false" onAction="#signupstudent" prefHeight="36.0" prefWidth="99.0" style="-fx-background-color: #064B82;" text="signup student" textFill="#faf8f7" wrapText="true">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Button>
+      <TextField fx:id="in1" layoutX="627.0" layoutY="291.0" style="-fx-background-color: #FFFFFF;" />
+      <TextField fx:id="in2" layoutX="627.0" layoutY="332.0" style="-fx-background-color: #FFFFFF;" />
+      <TextField fx:id="in3" layoutX="627.0" layoutY="371.0" style="-fx-background-color: #FFFFFF;" />
+      <TextField fx:id="in4" layoutX="627.0" layoutY="410.0" style="-fx-background-color: #FFFFFF;" />
+      <Button fx:id="run" layoutX="663.0" layoutY="487.0" mnemonicParsing="false" onAction="#runAction" prefHeight="36.0" prefWidth="68.0" style="-fx-background-color: #064B82;" text="run" textAlignment="CENTER" textFill="#f3f5f2" wrapText="true">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></Button>
+      <Button fx:id="signuptutor" layoutX="260.0" layoutY="156.0" mnemonicParsing="false" onAction="#signuptutor" prefHeight="36.0" prefWidth="93.0" style="-fx-background-color: #064B82;" text="signup tutor" textFill="#f3f5f2" wrapText="true">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Button>
+      <Button fx:id="videolist" layoutX="419.0" layoutY="70.0" mnemonicParsing="false" onAction="#videolistAction" prefHeight="36.0" prefWidth="68.0" style="-fx-background-color: #064B82;" text="videolist" textFill="#faf8f7" wrapText="true">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Button>
+      <Button fx:id="addvideos" layoutX="336.0" layoutY="70.0" mnemonicParsing="false" onAction="#addvideoAction" prefHeight="36.0" prefWidth="83.0" style="-fx-background-color: #064B82;" text="add videos" textFill="#f3f5f2" wrapText="true">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Button>
+      <TextField fx:id="in5" layoutX="627.0" layoutY="446.0" style="-fx-background-color: #FFFFFF;" />
+      <Button fx:id="addgrescore" layoutX="336.0" layoutY="113.0" mnemonicParsing="false" onAction="#addGreScoreAction" prefHeight="36.0" prefWidth="93.0" style="-fx-background-color: #064B82;" text="addgrescore" textFill="#f3f5f2" wrapText="true">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Button>
+      <Button fx:id="playvideo" layoutX="253.0" layoutY="113.0" mnemonicParsing="false" onAction="#playVideoAction" prefHeight="36.0" prefWidth="83.0" style="-fx-background-color: #064B82;" text="play video" textFill="#faf8f7" wrapText="true">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Button>
+      <Button fx:id="custompractice" layoutX="353.0" layoutY="156.0" mnemonicParsing="false" onAction="#customPracticeAction" prefHeight="36.0" prefWidth="119.0" style="-fx-background-color: #064B82;" text="custom practiceQ" textFill="#f3f5f2" wrapText="true">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Button>
+      <Button fx:id="addquizhistory" layoutX="327.0" layoutY="202.0" mnemonicParsing="false" onAction="#addQuizHistory" prefHeight="36.0" prefWidth="99.0" style="-fx-background-color: #064B82;" text="quizhis add" textFill="#f3f5f2" wrapText="true">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Button>
+      <Button fx:id="review" layoutX="263.0" layoutY="202.0" mnemonicParsing="false" onAction="#reviewAction" prefHeight="36.0" prefWidth="68.0" style="-fx-background-color: #064B82;" text="review" textFill="#faf8f7" wrapText="true">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Button>
+      <Button fx:id="expectedScore" layoutX="468.0" layoutY="156.0" mnemonicParsing="false" onAction="#expectedScoreAction" prefHeight="36.0" prefWidth="106.0" style="-fx-background-color: #064B82;" text="exprected Score" textFill="#f3f5f2" wrapText="true">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Button>
+      <Button fx:id="loginStudent" layoutX="161.0" layoutY="70.0" mnemonicParsing="false" onAction="#loginStudentAction" prefHeight="36.0" prefWidth="93.0" style="-fx-background-color: #064B82;" text="login Student" textFill="#faf8f7" wrapText="true">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Button>
+      <Button fx:id="loginTeacher" layoutX="253.0" layoutY="70.0" mnemonicParsing="false" onAction="#loginTeacherAction" prefHeight="36.0" prefWidth="83.0" style="-fx-background-color: #064B82;" text="login Tutor" textFill="#f3f5f2" wrapText="true">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Button>
+      <Button fx:id="viewDetails" layoutX="163.0" layoutY="202.0" mnemonicParsing="false" onAction="#viewDetailsAction" prefHeight="36.0" prefWidth="99.0" style="-fx-background-color: #064B82;" text="add viewD" textFill="#f3f5f2" wrapText="true">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Button>
+      <ImageView fitHeight="59.0" fitWidth="230.0" layoutX="247.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@magoosh.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="updatePerfromance" layoutX="422.0" layoutY="202.0" mnemonicParsing="false" onAction="#updatePerfromanceAction" prefHeight="36.0" prefWidth="131.0" style="-fx-background-color: #064B82;" text="update performace" textFill="#f3f5f2" wrapText="true">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="24.0" layoutY="156.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="119.0" style="-fx-background-color: #064B82;" text="Function" textFill="#faf8f7" wrapText="true">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="24.0" layoutY="202.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="119.0" style="-fx-background-color: #064B82;" text="Procedure" textFill="#faf8f7" wrapText="true">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="24.0" layoutY="113.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="119.0" style="-fx-background-color: #064B82;" text="Complex Query" textFill="#faf8f7" wrapText="true">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="24.0" layoutY="69.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="119.0" style="-fx-background-color: #064B82;" text="Simple Query" textFill="#faf8f7" wrapText="true">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="24.0" layoutY="248.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="119.0" style="-fx-background-color: #064B82;" text="Triggers" textFill="#faf8f7" wrapText="true">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="loginStudent1" layoutX="161.0" layoutY="248.0" mnemonicParsing="false" onAction="#performanceRecorsTriggerAction" prefHeight="36.0" prefWidth="158.0" style="-fx-background-color: #064B82;" text="autoinsertPerformanceR" textFill="#faf8f7" wrapText="true">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="mathQues" layoutX="161.0" layoutY="113.0" mnemonicParsing="false" onAction="#mathQuesAction" prefHeight="36.0" prefWidth="93.0" style="-fx-background-color: #064B82;" text="mathTques" textFill="#f3f5f2" wrapText="true">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="verbalQues" layoutX="428.0" layoutY="113.0" mnemonicParsing="false" onAction="#verbalQuesAction" prefHeight="36.0" prefWidth="93.0" style="-fx-background-color: #064B82;" text="verbalTques" textFill="#f3f5f2" wrapText="true">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="trigger2" layoutX="316.0" layoutY="248.0" mnemonicParsing="false" onAction="#trigger2Action" prefHeight="36.0" prefWidth="158.0" style="-fx-background-color: #064B82;" text="autoupdateperformance" textFill="#faf8f7" wrapText="true">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="GREScore" layoutX="488.0" layoutY="70.0" mnemonicParsing="false" onAction="#GREScoreAction" prefHeight="36.0" prefWidth="93.0" style="-fx-background-color: #064B82;" text="GRE Scores" textFill="#f3f5f2" wrapText="true">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="TopScorer" layoutX="519.0" layoutY="113.0" mnemonicParsing="false" onAction="#TopScorerAction" prefHeight="36.0" prefWidth="93.0" style="-fx-background-color: #064B82;" text="Top Score" textFill="#f3f5f2" wrapText="true">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="TeacherList" layoutX="609.0" layoutY="113.0" mnemonicParsing="false" onAction="#teacherListAction" prefHeight="36.0" prefWidth="93.0" style="-fx-background-color: #064B82;" text="TeacherList" textFill="#f3f5f2" wrapText="true">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+   </children>
+   <effect>
+      <Reflection />
+   </effect>
+</Pane>
